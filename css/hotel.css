@@ -64,16 +64,16 @@ header {
 
 .logo {
   color: white;
-  margin-left: -100px;
+  margin-right: 80px;
   text-decoration: none;
-  width: 140px;
+  width: 50px;
 }
 
 .menu {
   text-align: center;
   font-size: 17px;
   gap: 30px;
-  margin-right: 140px;
+  margin-right: 90px;
 }
 
 .menu :hover {
@@ -90,7 +90,7 @@ header {
 }
 
 .login a {
-  width: 111px;
+  width: 140px;
   text-decoration: none;
   font-size: 17px;
   color: #ffffff;
