@@ -11,7 +11,7 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
-body{
+body {
   overflow-x: hidden;
   font-family: "Work Sans", sans-serif;
 }
@@ -26,10 +26,12 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  background: linear-gradient(to bottom,
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0)
+  );
 
   z-index: 1000;
 }
@@ -125,26 +127,27 @@ header {
   overflow: hidden;
 }
 
-.hero img,video {
+.hero img,
+video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 1;
 }
-.text{
+.text {
   font-size: 28px;
   position: absolute;
   top: 85%;
   left: 25%;
   transform: translate(-50%, -50%);
 }
-.text h1{
+.text h1 {
   color: white;
   width: 275px;
   font-weight: 400;
 }
-.text h1::before{
-  content:  "";
+.text h1::before {
+  content: "";
   position: absolute;
   right: 103%;
   top: 27%;
@@ -167,8 +170,8 @@ header {
   font-weight: 400;
   margin-bottom: 35px;
 }
-.second-page h1::before{
-  content:  "";
+.second-page h1::before {
+  content: "";
   position: absolute;
   left: 260px;
   top: 119%;
@@ -176,8 +179,8 @@ header {
   height: 1px;
   background: #45443f;
 }
-.second-page h1::after{
-  content:  "";
+.second-page h1::after {
+  content: "";
   position: absolute;
   right: 260px;
   top: 119%;
@@ -208,13 +211,13 @@ header {
 
 .img-text h1 {
   color: #45443f;
- margin: 25px 0 15px;
+  margin: 25px 0 15px;
   font-weight: 400;
   position: relative;
   padding-left: 60px;
 }
-.img-text h1::before{
-  content:  "";
+.img-text h1::before {
+  content: "";
   position: absolute;
   left: -5px;
   top: 50%;
@@ -342,14 +345,14 @@ header {
   margin: 0 auto 60px;
 }
 
-.exclusive-text h1{
-  margin: 25px 0 15px;  
+.exclusive-text h1 {
+  margin: 25px 0 15px;
   font-weight: 400;
   position: relative;
   padding-left: 60px;
 }
 .exclusive-text h1::before {
-  content:  "";
+  content: "";
   position: absolute;
   left: 0;
   top: 28%;
@@ -387,11 +390,13 @@ header {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right,
-      rgba(0, 0, 0, 0.6),
-      transparent 20%,
-      transparent 80%,
-      rgba(0, 0, 0, 0.6));
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.6),
+    transparent 20%,
+    transparent 80%,
+    rgba(0, 0, 0, 0.6)
+  );
 }
 
 .slide img {
@@ -442,11 +447,10 @@ header {
   text-decoration: none;
 }
 
-.dining{
+.dining {
   background: #eceff1;
   padding: 80px 20px;
   color: #fff;
-
 }
 .sign-text {
   display: flex;
@@ -464,16 +468,15 @@ header {
   position: relative;
   padding-left: 60px;
 }
-.sign-text h1::before{
-  content:  "";
+.sign-text h1::before {
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
   width: 45px;
   height: 1px;
   background: #000;
-} 
-
+}
 
 .sign-text p {
   color: #45443f;
@@ -483,39 +486,39 @@ header {
   margin-left: -90px;
 }
 
-.explore{
+.explore {
   display: flex;
   justify-content: center;
   margin-left: 50px;
 }
-.explore a{
+.explore a {
   margin-top: -30px;
   color: #8f742f;
 }
-.chief-text{
+.chief-text {
   gap: 40px;
   display: flex;
   color: #000;
   margin-top: 20px;
 }
-.card{
+.card {
   width: 30%;
   text-align: left;
 }
-.card img{
+.card img {
   width: 100%;
   height: 350px;
   object-fit: cover;
 }
-.card h3{
+.card h3 {
   margin: 25px 0 15px;
   font-size: 15px;
   font-weight: 400;
   position: relative;
   padding-left: 60px;
 }
-.card h3::before{
-  content:  "";
+.card h3::before {
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -523,16 +526,15 @@ header {
   height: 1px;
   background: #000;
 }
-.card p{
+.card p {
   font-size: 15px;
   color: #555;
   line-height: 1.6;
 }
 
-.event-section{
+.event-section {
   background: #fff;
   padding: 10px 20px;
-  
 }
 .event {
   display: flex;
@@ -545,15 +547,15 @@ header {
 }
 
 .event h1 {
- margin: 10px 0 15px;
+  margin: 10px 0 15px;
   font-weight: 400;
   width: 35%;
   position: relative;
   padding-left: 64px;
   color: #555;
 }
-.event h1::before{
-  content:  "";
+.event h1::before {
+  content: "";
   position: absolute;
   left: -5px;
   top: 25%;
@@ -569,72 +571,72 @@ header {
   margin-top: -70px;
   margin-left: 495px;
 }
-.meeting-info{
+.meeting-info {
   gap: 40px;
   display: flex;
   color: #555;
   margin-top: 20px;
 }
-.cards{
+.cards {
   width: 30%;
   text-align: left;
 }
-.cards img{
+.cards img {
   width: 95%;
   height: 400px;
   margin: 20px 0 0 50px;
   object-fit: cover;
 }
-.cards h3{
+.cards h3 {
   margin: 10px 0 0 200px;
   font-size: 15px;
   font-weight: 400;
   position: relative;
   padding-left: 60px;
 }
-.explor{
+.explor {
   display: flex;
   justify-content: center;
   margin-right: 125px;
 }
-.explor a{
+.explor a {
   margin-top: -30px;
   color: #8f742f;
 }
-.sence{
+.sence {
   margin-top: 50px;
   object-fit: cover;
 }
-.sence img{
+.sence img {
   width: 100%;
   height: 100vh;
 }
-.ending{
+.ending {
   background-color: #13130f;
   padding: 100px 190px;
   margin-top: -3px;
 }
-.last-page{
+.last-page {
   grid-template-columns: 2fr 1.2fr 1fr 1fr 1fr;
   gap: 40px;
 }
-.last-logo img{
+.last-logo img {
   cursor: pointer;
   width: 7%;
 }
-.subscribe-text{
+.subscribe-text {
   font-size: 19px;
   font-variant: small-caps;
   color: #898987;
   margin-top: 40px;
 }
-.subscribe-box{
+.subscribe-box {
   display: flex;
   background: #13130f;
   padding: 15px 20px;
   width: 520px;
 }
-.subscribe-box input{
+.subscribe-box input {
   flex: 1;
   background: #13130f;
   border: none;
@@ -645,7 +647,7 @@ header {
   outline: none;
   margin-left: -25px;
 }
-.subscribe-box button{
+.subscribe-box button {
   background: #b9b9b7;
   border: none;
   color: #43423f;
@@ -656,21 +658,21 @@ header {
   font-weight: 500;
   cursor: not-allowed;
 }
-.booking{
+.booking {
   font-variant: small-caps;
   font-size: 19px;
   letter-spacing: 1px;
   margin-top: 30px;
   color: #898987;
 }
-.booking h4{
+.booking h4 {
   font-weight: 400;
   color: #fff;
   margin-top: 6px;
   cursor: pointer;
   font-size: 16px;
 }
-.booking span{
+.booking span {
   display: flex;
   justify-content: center;
   margin-top: -20px;
@@ -679,7 +681,7 @@ header {
   cursor: pointer;
   margin-left: 20px;
 }
-.quick{
+.quick {
   margin-left: 60%;
   margin-top: -20%;
 }
@@ -705,31 +707,31 @@ header {
 .quick ul li:hover {
   color: #fff;
 }
-.about{
+.about {
   margin-left: 60%;
   margin-top: -66%;
 }
-.about ul{
+.about ul {
   list-style: none;
 }
-.about ul li{
+.about ul li {
   font-size: 15px;
   margin-bottom: 10px;
   line-height: 1.8;
   cursor: pointer;
   color: #ddd;
 }
-.about ul li:hover{
+.about ul li:hover {
   color: #fff;
 }
-.icon{
+.icon {
   color: #ddd;
 }
-.icon p{
+.icon p {
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
-.icon img{
+.icon img {
   width: 30px;
   background: #ddd;
   margin: 10px;
@@ -742,21 +744,21 @@ header {
   position: relative;
   overflow: hidden;
 }
-.taxt{
+.taxt {
   top: 75%;
   left: 35%;
   font-size: 28px;
   position: absolute;
   transform: translate(-50%, -50%);
 }
-.taxt h1{
+.taxt h1 {
   color: white;
   position: relative;
   margin-bottom: 25px;
   font-weight: 400;
 }
-.taxt h1::before{
-  content:  "";
+.taxt h1::before {
+  content: "";
   position: absolute;
   right: 101%;
   top: 50%;
@@ -764,7 +766,7 @@ header {
   height: 1px;
   background: white;
 }
-.search-box{
+.search-box {
   background: #fff;
   display: flex;
   color: #45443f;
@@ -775,7 +777,7 @@ header {
   margin-bottom: 40px;
   max-width: 900px;
 }
-.search-box input{
+.search-box input {
   font-weight: 500;
   flex: 1;
   border: none;
@@ -786,7 +788,7 @@ header {
 }
 
 .search-icon,
-.mic-icon{
+.mic-icon {
   color: #45443f;
   font-size: 24px;
   cursor: pointer;
@@ -799,11 +801,11 @@ header {
 
 .second-web h1 {
   color: #45443f;
-  font-weight: 400; 
+  font-weight: 400;
   margin-top: 30px;
 }
-.second-web h1::before{
-  content:  "";
+.second-web h1::before {
+  content: "";
   position: absolute;
   left: 425px;
   top: 108%;
@@ -811,8 +813,8 @@ header {
   height: 1px;
   background: #45443f;
 }
-.second-web h1::after{
-  content:  "";
+.second-web h1::after {
+  content: "";
   position: absolute;
   right: 425px;
   top: 108%;
@@ -828,26 +830,26 @@ header {
   line-height: 1.6;
   margin-left: 400px;
   font-size: 18px;
-  margin-top: 50px; 
+  margin-top: 50px;
   margin-bottom: 70px;
 }
-.san{
+.san {
   gap: 40px;
   display: flex;
   color: #000;
   margin-top: 20px;
 }
-.mark{
+.mark {
   width: 37%;
   text-align: left;
 }
-.mark img{
+.mark img {
   width: 100%;
   margin-left: 200px;
   height: 350px;
   object-fit: cover;
 }
-.mark h3{
+.mark h3 {
   font-weight: 400;
   font-variant: small-caps;
   font-size: 22px;
@@ -856,18 +858,18 @@ header {
   margin-left: 220px;
   margin-bottom: 15px;
 }
-.mark p{
+.mark p {
   font-weight: 400;
   color: #43423f;
   margin-left: 220px;
   margin-bottom: 15px;
   width: 97%;
 }
-.mark span{
+.mark span {
   margin-left: 220px;
   font-weight: 400;
 }
-.mark button{
+.mark button {
   margin-top: 10px;
   text-align: left;
   background-color: #ad8b3a;
@@ -877,12 +879,12 @@ header {
   margin-bottom: 30px;
   cursor: pointer;
 }
-.mark a{
+.mark a {
   margin-left: 122px;
   color: #ad8b3a;
 }
 
-.searc-box{
+.searc-box {
   background: #fff;
   display: flex;
   color: #45443f;
@@ -893,7 +895,7 @@ header {
   margin-bottom: 40px;
   max-width: 900px;
 }
-.searc-box input{
+.searc-box input {
   font-weight: 500;
   flex: 1;
   border: none;
@@ -903,24 +905,24 @@ header {
   cursor: pointer;
 }
 .searc-icon,
-.mec-icon{
+.mec-icon {
   color: #45443f;
   font-size: 24px;
   cursor: pointer;
 }
-.member{
+.member {
   text-align: center;
   margin: 60px 20px 80px;
   font-size: 22px;
   color: #45443f;
 }
-.member h1{
+.member h1 {
   font-weight: 400;
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 50px;
 }
-.member h1::before{
+.member h1::before {
   content: "";
   position: absolute;
   left: 31%;
@@ -929,7 +931,7 @@ header {
   height: 1px;
   background: #45443f;
 }
-.member h1::after{
+.member h1::after {
   content: "";
   position: absolute;
   right: 31%;
@@ -938,21 +940,21 @@ header {
   height: 1px;
   background: #45443f;
 }
-.scan-text{
+.scan-text {
   top: 88%;
   left: 30%;
   font-size: 28px;
   position: absolute;
   transform: translate(-50%, -50%);
 }
-.scan-text h1{
+.scan-text h1 {
   color: white;
   position: relative;
   margin-bottom: 25px;
   font-weight: 400;
 }
-.scan-text h1::before{
-  content:  "";
+.scan-text h1::before {
+  content: "";
   position: absolute;
   right: 103%;
   top: 50%;
@@ -960,23 +962,23 @@ header {
   height: 2px;
   background: #fff;
 }
-.curate{
+.curate {
   background: #ffffff;
   padding: 20px 40px;
 }
-.curate-text{
+.curate-text {
   text-align: center;
-  color: #45443F;
+  color: #45443f;
   font-size: 22px;
   padding: 60px 50px 10px;
 }
-.curate-text h1{
+.curate-text h1 {
   font-weight: 400;
   margin-bottom: 30px;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
 }
-.curate-text h1::before{
-  content:  "";
+.curate-text h1::before {
+  content: "";
   position: absolute;
   left: 310px;
   top: 112.5%;
@@ -984,48 +986,48 @@ header {
   height: 1px;
   background: #45443f;
 }
-.curate-text h1::after{
-  content:  "";
+.curate-text h1::after {
+  content: "";
   position: absolute;
   right: 310px;
   top: 112.5%;
   width: 60px;
   height: 1px;
-  background: #45443f; 
+  background: #45443f;
 }
-.curate-text p{
+.curate-text p {
   width: 58%;
   font-weight: 300;
   margin-left: 25%;
   margin-bottom: 50px;
 }
 
-.member-section{
+.member-section {
   display: flex;
   gap: 25px;
   margin: 0px 170px;
 }
-.member-image{
+.member-image {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   width: 400px;
   color: #484742;
   margin: 20px 0px -50px;
 }
-.member-image img{
+.member-image img {
   width: 95%;
 }
-.member-image h3{
+.member-image h3 {
   font-weight: 400;
   margin: 40px 0px 40px 40px;
-  letter-spacing: 1px
+  letter-spacing: 1px;
 }
-.member-image p{
+.member-image p {
   font-weight: 300;
   font-size: 18px;
   margin: 0px 0 40px 40px;
 }
-.member-image a{
+.member-image a {
   display: flex;
   background-color: #ad8b3a;
   color: #fff;
@@ -1044,7 +1046,7 @@ header {
   }
 
   .menu {
-    display: none; 
+    display: none;
   }
 
   .login {
