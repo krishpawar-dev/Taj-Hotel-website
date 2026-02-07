@@ -173,8 +173,8 @@ video {
 .second-page h1::before {
   content: "";
   position: absolute;
-  left: 260px;
-  top: 119%;
+  left: 185px;
+  top: 121%;
   width: 60px;
   height: 1px;
   background: #45443f;
@@ -182,8 +182,8 @@ video {
 .second-page h1::after {
   content: "";
   position: absolute;
-  right: 260px;
-  top: 119%;
+  right: 185px;
+  top: 121%;
   width: 60px;
   height: 1px;
   background: #45443f;
