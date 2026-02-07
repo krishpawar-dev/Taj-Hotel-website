@@ -419,13 +419,23 @@
     <script>
       $(document).ready(function () {
         $(".offers-slider").owlCarousel({
-          items: 3,
-          loop: true,
-          margin: 20,
-          nav: true,
-          dots: false,
-          autoplay: false,
-        });
+  loop: true,
+  margin: 20,
+  nav: true,
+  dots: false,
+  autoplay: false,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 2
+    },
+    1000: {
+      items: 3
+    }
+  }
+});
 
         $(".exclusive-only").owlCarousel({
           items: 1,

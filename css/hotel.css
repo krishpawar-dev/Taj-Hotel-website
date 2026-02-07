@@ -11,6 +11,10 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+body{
+  overflow-x: hidden;
+  font-family: "Work Sans", sans-serif;
+}
 
 header {
   position: fixed;
@@ -121,7 +125,7 @@ header {
   overflow: hidden;
 }
 
-.hero video {
+.hero img,video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -183,11 +187,12 @@ header {
 }
 
 .second-page p {
-  width: 675px;
+  width: 700px;
   font-weight: 400;
   color: #45443f;
   line-height: 1.6;
-  margin-left: 400px;
+  margin: 0 auto;
+  padding: 0 20px;
   font-size: 18px;
   margin-bottom: 50px;
 }
@@ -1032,4 +1037,60 @@ header {
   width: 170px;
   margin-left: 40px;
   margin-bottom: 80px;
+}
+@media (max-width: 992px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .menu {
+    display: none; 
+  }
+
+  .login {
+    display: none;
+  }
+
+  .button {
+    margin-right: 0;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .second-page h1 {
+    font-size: 20px;
+  }
+
+  .second-page p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .ending {
+    padding: 40px 20px;
+  }
+
+  .quick,
+  .about {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .subscribe-box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .subscribe-box button {
+    margin-left: 0;
+    margin-top: 15px;
+  }
 }
